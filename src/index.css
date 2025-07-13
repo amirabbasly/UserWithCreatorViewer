@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('/src/assets/fonts/iran-yekan-font/IRANYekanFN/iranyekanwebblackfanum.ttf') format('truetype'),
+}
+
+body {
+  font-family: 'MyCustomFont', Arial, sans-serif;
+}
+@keyframes moveBg {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 0%;
+  }
+}
